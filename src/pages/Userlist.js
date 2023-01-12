@@ -109,7 +109,7 @@ function Userlist() {
                             className="btn btn-info btn-sm mr-1"
                           >
                             View
-                          </Link>
+                          </Link> 
                           <Link
                             to={`/portal/user-edit/${user.id}`}
                             className="btn btn-primary btn-sm mr-1"

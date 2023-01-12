@@ -4,10 +4,10 @@ import Dasboard from "./Dasboard";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./Login";
 import Portal from "./Portal";
-import Userlist from "./Userlist";
+import Userlist from "./pages/Userlist";
 import UserCreate from "./pages/UserCreate";
-import UserView from "./UserView";
-import UserEdit from "./UserEdit";
+import UserView from "./pages/UserView";
+import UserEdit from "./pages/UserEdit";
 
 function App() {
   return (
