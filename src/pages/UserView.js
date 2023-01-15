@@ -5,9 +5,6 @@ import { useFormik } from "formik";
 
 function UserView() {
   const params = useParams();
-  // console.log(params);
-
-  // const [userlist, setUserlist] = useState([]);
 
   useEffect(() => {
     getUsers();
